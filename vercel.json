@@ -2,11 +2,6 @@
     "version": 2,
     "redirects": [
         {
-            "source": "/",
-            "destination": "https://github.com/imaliang/tmdb-proxy",
-            "permanent": true
-        },
-        {
             "source": "/3/:path*",
             "destination": "https://api.themoviedb.org/3/:path*"
         },
@@ -19,6 +14,10 @@
         {
             "source": "/t/p/:path*",
             "destination": "https://image.tmdb.org/t/p/:path*"
+        },
+        {
+            "source": "/3/:path*",
+            "destination": "https://api.themoviedb.org/3/:path*"
         },
         {
             "source": "/:path*",
