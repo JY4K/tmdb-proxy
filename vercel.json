@@ -5,6 +5,14 @@
             "source": "/",
             "destination": "https://github.com/imaliang/tmdb-proxy",
             "permanent": true
+        },
+        {
+            "source": "/3/:path*",
+            "destination": "https://api.themoviedb.org/3/:path*"
+        },
+        {
+             "source": "/t/p/:path*",
+             "destination": "https://image.tmdb.org/t/p/:path*"
         }
     ],
     "rewrites": [
